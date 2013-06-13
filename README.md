@@ -1,9 +1,23 @@
-# $.geocomplete() - Version 1.4
+# $.geocomplete() - Version 1.4 Forked
 ## jQuery Geocoding and Places Autocomplete Plugin
 
-An advanced jQuery plugin that wraps the Google Maps API's [Geocoding](https://code.google.com/apis/maps/documentation/javascript/geocoding.html) and [Places Autocomplete](https://code.google.com/apis/maps/documentation/javascript/places.html#places_autocomplete) services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.
+### ATENTION!!!
 
+This library was modified by jcdelgado to update locations automatically at marker drag.
+
+View the original repository [annotated source](https://github.com/ubilabs/geocomplete)
 View the [annotated source](http://ubilabs.github.com/geocomplete/docs/).
+
+
+
+
+
+
+
+
+
+
+# Official documentation.
 
 ## Basic Usage
 
