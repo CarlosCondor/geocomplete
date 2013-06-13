@@ -390,6 +390,9 @@
 
     // Fire the "geocode:dragged" event and pass the new position.
     markerDragged: function(event){
+      // jcdelgado hack
+      // call find function to update map and inputs
+      this.find(event.latLng.lat()+","+event.latLng.lng());
       this.trigger("geocode:dragged", event.latLng);
     },
 
