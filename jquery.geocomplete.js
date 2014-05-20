@@ -251,6 +251,9 @@
       });
     },
 
+    resizeMap: function() {
+      this.resizeMap();
+    }
     // Requests details about a given location.
     // Additionally it will bias the requests to the provided bounds.
     geocode: function(request){
@@ -410,6 +413,7 @@
     // Update the plugin after the user has selected an autocomplete entry.
     // If the place has no geometry it passes it to the geocoder.
     placeChanged: function(){
+      google.maps.event.trigger(this.map, "resize")
       var place = this.autocomplete.getPlace();
 
       if (!place.geometry){
